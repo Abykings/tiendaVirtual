@@ -1,0 +1,37 @@
+@media screen and (min-width: 768px){
+
+	#search-icon {display: none;}
+
+	.toolbar .toolbar_in .logo_container {
+		display: inline-block;
+		width: 130px;
+
+	}
+
+	.toolbar .toolbar_in .right_info {
+		width: calc(100% - 130px);
+	}
+
+	.toolbar .toolbar_in .right_info .search_bar_container{
+		vertical-align: top;
+		width: auto;
+	}
+
+	
+
+	.toolbar .toolbar_in .right_info .info{
+		vertical-align: top;
+	}
+
+	.toolbar .toolbar_in .right_info .search_bar_container .search_bar{
+		display: inline-block;
+		position: relative;
+		width: 480px;
+
+	}
+
+	.toolbar .toolbar_in .right_info .search_bar_container .search_bar .text_field{
+		margin-right: 16px;
+
+	}
+}
